@@ -7,3 +7,11 @@ br {
 hr {
   margin: 225px 0;
 }
+h1 {
+  margin: 0;
+} 
+h1 {
+  .cervene pero {
+    color: rgb(25, 204, 64);
+  }
+}
