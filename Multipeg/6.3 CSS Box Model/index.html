@@ -6,6 +6,38 @@
   <title>CSS Box Model</title>
   <style>
     /* Write your CSS code here */
+div {height: 200px;
+   width: 200px;}
+
+   #first { background-color: cadetblue;}
+   #second {background-color: gold}
+   #third {background-color: indianred}
+
+   #first { 
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    border: 10px solid black;
+    border-radius: 0px;
+    }
+    
+           
+p {margin: 0;}
+
+#second {
+  border-top-width: 20px;
+  border-bottom-width: 20px;
+  border-right-width: 10px;
+  border-left-width: 10px;
+  border-style: solid;
+  margin-left: 260px;
+ 
+}
+#third {
+  border: 10px solid black;
+  margin-left: 40px;
+}
 
   </style>
 </head>
@@ -28,7 +60,36 @@ Hint: Use the CSS inspector in Chrome.
 8. Set the 3rd div to have a 10px border 
 9. Set the margins for the divs so that each box corner touches the other. (See the goal image)
 -->
+  
+<!-- Vytvořte 3 boxy (boxy) pomocí elementu <div>.
 
+Nastavte jejich rozměry na 200 px výšky a 200 px šířky.
+
+Nastavte každému boxu jinou barvu pozadí (v zadání použity: cadetblue, gold a indianred).
+
+Do prvního divu vložte odstavec <p> s následujícím textem:
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at sapien porttitor urna elementum lacinia. In
+ id magna pulvinar, ultricies lorem id, vehicula elit. Aliquam eu luctus nisl, vitae pellentesque magna. Phasellus
+ dolor metus, laoreet ac convallis sit amet, efficitur sed dolor.
+
+Prvnímu divu nastavte vnitřní výplň (padding) 20 px na všech stranách a černý rámeček (border) o tloušťce 10 px.
+
+Upravte styl elementu <p> tak, aby byly odstraněny všechny jeho vnější okraje (margin).
+Tip: Použijte CSS inspektor v prohlížeči Chrome.
+
+Druhému divu nastavte 20px rámeček nahoře a dole a 10px rámeček vlevo a vpravo (viz vzorový obrázek).
+
+Třetímu divu nastavte 10px rámeček.
+
+Nastavte vnější okraje (margin) u divů tak, aby se rohy boxů vzájemně dotýkaly (viz vzorový obrázek). -->
+
+
+
+<DIV id="first">  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at sapien porttitor urna elementum lacinia. In
+      id magna pulvinar, ultricies lorem id, vehicula elit. Aliquam eu luctus nisl, vitae pellentesque magna. Phasellus
+      dolor metus, laoreet ac convallis sit amet, efficitur sed dolor.</p></DIV>
+<DIV id="second">df</DIV>
+<DIV id="third">sdg</DIV>   
 </body>
 
-</html>
+</html> 
