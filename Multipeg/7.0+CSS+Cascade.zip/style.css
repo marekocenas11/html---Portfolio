@@ -5,8 +5,43 @@
   padding: 10px;
 }
 
+.inner-box {
+    background-color: red  }
+    
 p {
   color: yellow;
   margin: 0;
   padding: 0;
 }
+
+p [class="white-text"] {
+  color: white; 
+  border: 2px solid red;
+}
+
+#outer-box {
+  padding: 0px; border: 10px 
+  solid rgb(35, 20, 163);}
+
+  .white-text {
+    color: white;
+    background-color: red;
+ 
+  }
+  dov.box { 
+    background-color: blue;
+    padding: 10px;
+  }
+  .inner-box {
+    background-color: red  }
+  #div clacss="box inner-box" { 
+    
+  } 
+  p[class="white-text"] {
+   
+    padding-top: 15px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+
+  }
