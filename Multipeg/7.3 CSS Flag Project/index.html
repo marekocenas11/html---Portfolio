@@ -1,61 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CSS Flag Project</title>
+    <style>
+      /* Write your CSS Code here */
+      .flag {
+        background-color: red;
+        width: 900px;
+        height: 600px;
+        position: relative;
+        margin-top: 8px;
+        margin-right: 8px;
+        margin-bottom: 8px;
+        margin-left: 8px;
+      }
+      .flag > p {
+        color: white;
+        font-size: 4rem;
+        text-align: center;
+        padding-top: 0px;
+        padding-bottom: 50px;
+        margin: 0;
+      }
+      div > div {
+        box-sizing: content-box;
+        background-color: blue;
+        position: static;
+        height: 400px;
+        width: 900px;
+        top: 120px;
+        bottom: 120px;
+      }
 
-<head>
-  <meta charset="UTF-8">
-  <title>CSS Flag Project</title>
-  <style>
-    /* Write your CSS Code here */
-    .flag 
-    { background-color: red;
-      width: 900px;
-      height: 600px;
-      position: relative;
-    margin-top: 8px;
-    margin-right: 8px;
-    margin-bottom: 8px;
-    margin-left: 8px;
+      div > div p {
+        background-color: white;
+        position: absolute;
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        top: 130px;
+        left: 350px;
+        color: rgb(14, 1, 1);
+        font-size: 5rem;
+        text-align: center;
+      }
+    </style>
+  </head>
 
- }
- .flag >  p
- { color: white;
-  font-size: 4rem;
-  text-align: center;
-  padding-top: 0px;
-  padding-bottom: 50px;
-  margin: 0;
- }
- div > div
- {
-  box-sizing: content-box;
-  background-color: blue;
-  position: static;
-  height: 400px;
-  width: 900px;
-  top: 120px;
-  bottom: 120px;
-  }
- 
- div > div p { 
-  background-color: white;
-  position: absolute;
-  height: 200px;
-  width: 200px;
-  border-radius: 50%;
-  top: 130px;
-  left: 350px;
- color: rgb(14, 1, 1);
- font-size: 5rem;
-  text-align: center;
-  
- 
- }
-  
-    
-  </style>
-</head>
-
-<!-- 
+  <!-- 
   IMPORTANT! Do not change any HTML
 Don't add any classes/ids/elements 
 Use what you know about combining selectors 
@@ -65,15 +58,14 @@ Hint 2: You can use CSS inspection to get the colors from
 https://appbrewery.github.io/flag-of-laos/
 -->
 
-<body>
-  <div class="flag">
-    <p>The Flag</p>
-    <div>
+  <body>
+    <div class="flag">
+      <p>The Flag</p>
       <div>
-        <p>of Laos</p>
+        <div>
+          <p>of Laos</p>
+        </div>
       </div>
     </div>
-  </div>
-</body>
-
+  </body>
 </html>
